@@ -37,7 +37,7 @@ function discountPrices(prices, discount) {
         discounted.push(discountedPrice);
     }
 
-    if(discounted.length == 0) return false;
+    if(discounted.length === 0) return false;
 
     return discounted;
 }
