@@ -7,7 +7,7 @@
  */
 function sumValues(num1, num2, add) {
     if (add) {
-        const result = 0;
+        let result = 0;
 
         result = num1 + num2;
 
@@ -33,7 +33,7 @@ function discountPrices(prices, discount) {
         discounted.push(discountedPrice);
     }
 
-    if(discounted.length == 0) return 0;
+    if(discounted.length == 0) return false;
 
     return discounted;
 }
